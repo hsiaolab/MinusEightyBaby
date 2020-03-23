@@ -4,7 +4,7 @@ import time, sys
 from daqhats import mcc134, hat_list, HatIDs, TcTypes
 import tweepy
 
-###### SET THESES
+###### SET THESE VARIABLES
 SLEEP_MINUTES = 20          # every 20 minutes
 FRIDGE_LABEL = 'fridge_a'   # set a label for your fridge
 CONSUMER_KEY = "XXX"        # change XXX to your Twitter Consumer Key
