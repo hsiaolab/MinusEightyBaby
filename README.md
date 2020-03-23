@@ -20,7 +20,7 @@ Setup Accessories:
 #### Setup a Twitter Developer account while you wait for your hardware
 
 1. After creating a Twitter account, add your email and phone number to your profile (Dev accounts need both to be entered)
-2. Go to [https://developer.twitter.com/apps](Twitter Apps) to signup to be a developer and create an app, fill in minimum requirements
+2. Go to (Twitter Apps)[https://developer.twitter.com/apps] to signup to be a developer and create an app, fill in minimum requirements
 3. After successful app creation, go to the App's Keys and Tokens section and save the Consumer keys and generated Access token/secrets somewhere for later:
 
 #### Install the Hardware: 
