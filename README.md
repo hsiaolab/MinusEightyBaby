@@ -70,6 +70,8 @@ Setup Accessories:
 
 `python3 client.py`
 
+### If everything works, you can unplug the display, keyboard, and mouse and tape the Raspberry Pi somewhere. You're done!
+
 ---
 
 ## Advanced Notes
