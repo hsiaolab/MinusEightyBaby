@@ -57,6 +57,8 @@ Setup Accessories:
 
 `cd ~/Documents/freezercheck`
 
+`pip install tweepy`
+
 `wget https://raw.githubusercontent.com/hsiaolab/MinusEightyBaby/master/scripts/freezerbot.py`
 
 ### Edit the script
