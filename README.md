@@ -101,8 +101,6 @@
 
 `cd /etc/ifplugd/action.d/`
 
-`sudo mv ifupdownifupdown.original`
-
 `sudo cp /etc/wpa_supplicant/ifupdown.sh ./ifupdown`
 
 `sudo reboot`
