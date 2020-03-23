@@ -1,6 +1,6 @@
 # @MinusEightyBaby
 
-### Instructions on how to build an extreme temperature (-200°C to 260°C) remote monitor [Twitter Bot](https://twitter.com/minuseightybaby) for your lab freezers
+## Instructions on how to build a low temperature (-200°C to 260°C) remote monitor [Twitter Bot](https://twitter.com/minuseightybaby) for your lab freezers
 
 ---
 
@@ -68,9 +68,9 @@ Setup Accessories:
 
 ### Run the script and check your Twitter page if it worked
 
-`python3 client.py`
+`python freezerbot.py`
 
-### If everything works, you can unplug the display, keyboard, and mouse and tape the Raspberry Pi somewhere. You're done!
+### If everything works, you can unplug the display, keyboard, and mouse. Tape the Raspberry Pi somewhere secure. You're done!
 
 ---
 
@@ -85,7 +85,7 @@ Setup Accessories:
 
 `cd /home/pi/Documents/freezercheck`
 
-`python3 client.py &`
+`python freezerbot.py &`
 
 ---
 
@@ -102,9 +102,3 @@ Setup Accessories:
 `sudo reboot`
 
 2. Restart the script after boot up if you don't have auto-loading setup
-
----
-
-### Alerts
-
-* Instead of posting directly to Twitter we actually post the data to our internal server every minute and that server handles consolidating the temperatures and alerting us via email if there are any problems.
