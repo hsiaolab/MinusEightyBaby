@@ -37,7 +37,7 @@
     
     <img width="500px" src="https://github.com/hsiaolab/MinusEightyBaby/blob/master/images/3setup.jpg?raw=true">
     
-4. String the sensor end of the Thermocouple into the fridge
+4. String the sensor end of the Thermocouple into the freezer
 
     <img width="500px" src="https://github.com/hsiaolab/MinusEightyBaby/blob/master/images/5freeze.jpg?raw=true">
     
