@@ -1,6 +1,6 @@
 # MinusEightyBaby
 
-### Instructions on how to build an extreme temperature remote monitor Twitter Bot for your lab freezers
+### Instructions on how to build an extreme temperature (-200°C to 260°C) remote monitor Twitter Bot for your lab freezers
 
 ---
 
