@@ -2,8 +2,6 @@
 
 ## Instructions on how to build a Raspberry Pi low temperature (-200°C to 260°C) [Twitter Bot](https://twitter.com/minuseightybaby) for your lab freezers for remote monitoring.
 
----
-
 **Part List for each Freezer:**
 
 * 1 x [Thermocouple T-Type –200C to 260C sensor @ $20](https://www.amazon.com/gp/product/B075QBB99D/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
@@ -96,8 +94,6 @@
 `cd /home/pi/Documents/freezercheck`
 
 `python freezerbot.py &`
-
----
 
 #### ii. Using WiFi?
 
