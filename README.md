@@ -74,6 +74,19 @@ Setup Accessories:
 
 ## Advanced Notes
 
+
+### Remote access and auto-loading
+
+1. Change the hostname in /etc/hostname if you have multiple fridges and want to connect remotely
+
+2. Add the following before the exit line in /etc/rc.local before so the script runs automatically when the Raspberry Pi boots up:
+
+`cd /home/pi/Documents/freezercheck`
+
+`python3 client.py &`
+
+---
+
 ### Using WiFi?
 
 1. Setup the PI to reconnect to WiFi if it goes down. Open the terminal app and enter this line by line, the machine will reboot:
@@ -86,17 +99,7 @@ Setup Accessories:
 
 `sudo reboot`
 
----
- 
-### Remote access and auto-loading
-
-1. Change the hostname in /etc/hostname if you have multiple fridges and want to connect remotely
-
-2. Add the following before the exit line in /etc/rc.local before so the script runs automatically when the Raspberry Pi boots up:
-
-`cd /home/pi/Documents/freezercheck`
-
-`python3 client.py &`
+2. Restart the script after boot up if you don't have auto-loading setup
 
 ---
 
